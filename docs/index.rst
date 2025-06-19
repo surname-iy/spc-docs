@@ -1,3 +1,5 @@
+.. index.rst
+
 ============
 项目文档主页
 ============
@@ -6,6 +8,6 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: 目录
-
-   operations/overview  # 正确指向 docs/operations/overview.rst
+   :caption: 操作指南
+   
+   operations/overview   # 确保这是相对 docs/ 的路径

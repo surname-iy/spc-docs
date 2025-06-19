@@ -1,12 +1,19 @@
 version: 2
+
 build:
   os: ubuntu-22.04
   tools:
     python: "3.10"
+  
 sphinx:
-  # 指向项目根目录的 conf.py
-  configuration: conf.py  
+  configuration: conf.py  # 指向根目录的 conf.py
+
 python:
   install:
-    # 安装依赖（必须包含 sphinx_rtd_theme）
-    - requirements: requirements.txt  
+    - requirements: requirements.txt
+
+# ==== 关键添加 ==== #
+  # 显式设置构建命令
+  build:
+    commands:
+      - sphinx-build -b html docs _build/html
