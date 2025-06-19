@@ -1,7 +1,7 @@
 version: 2
 
 build:
-  os: ubuntu-18.04  # 构建环境的操作系统
+  os: ubuntu-22.04  # 构建环境的操作系统
   tools:
     python: "3.13"  # 构建使用的 Python 版本
 
