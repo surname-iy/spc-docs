@@ -1,3 +1,4 @@
-sphinx>=5.0
-sphinx_rtd_theme>=1.0
-sphinx-intl
+sphinx==6.2.1
+sphinx_rtd_theme==1.2.0
+sphinx-intl==2.1.0
+recommonmark==0.7.1
