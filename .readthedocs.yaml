@@ -6,7 +6,7 @@ build:
     python: "3.13"  # 构建使用的 Python 版本
 
 sphinx:
-  configuration: docs/conf.py  # 指向 Sphinx 的配置文件路径
+  configuration: conf.py  # 指向 Sphinx 的配置文件路径
 
 python:
   install:
