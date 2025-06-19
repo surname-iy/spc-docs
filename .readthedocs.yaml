@@ -2,10 +2,9 @@ version: 2
 build:
   os: ubuntu-22.04
   tools:
-    python: "3.10"  # 构建使用的 Python 版本，根据实际需求调整
+    python: "3.10" 
 sphinx:
-  configuration: conf.py  # 指向 Sphinx 的配置文件
-  source: docs/  # 明确文档的源目录是 docs 文件夹，和 conf.py 配置对应上
+  configuration: conf.py  
 python:
   install:
-    - requirements: requirements.txt  # 安装文档构建所需依赖
+    - requirements: requirements.txt 
